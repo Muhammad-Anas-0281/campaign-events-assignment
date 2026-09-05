@@ -1,0 +1,22 @@
+# Compiled binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# SQLite databases created at runtime
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Test artifacts
+actual.txt
+test_run.db*
+
+# Internal tracker files (excluded from official submission)
+ongoing.md
+structure.md
+campaign_events.postman_collection.json
+submission.zip
